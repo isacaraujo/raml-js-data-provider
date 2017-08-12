@@ -1,0 +1,44 @@
+{
+  "name": "raml-js-data-provider",
+  "version": "0.1.0",
+  "description": "A npm module to observe API spec folder and generate JavaScript object from RAML for Web Socket server.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha 'test/*.test.js'"
+  },
+  "engines": {
+    "node": ">=6.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mulesoft-labs/raml-js-data-provider.git"
+  },
+  "keywords": [
+    "api-console",
+    "builder",
+    "node",
+    "bower",
+    "dependencies"
+  ],
+  "author": "Pawel Psztyc, Advanced Rest Client Authors",
+  "license": "Apache-2.0 or CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/mulesoft-labs/raml-js-data-provider/issues"
+  },
+  "homepage": "https://github.com/mulesoft-labs/raml-js-data-provider#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "fs-extra": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "raml-json-enhance-node": "^0.2.0",
+    "winston": "^2.3.1",
+    "ws": "^3.1.0"
+  },
+  "files": [
+    "lib",
+    "main.js"
+  ]
+}
